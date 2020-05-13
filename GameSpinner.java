@@ -14,6 +14,7 @@ public class GameSpinner {
     } else {
         currentRun = 0;
     }
+    prevSpin = result;
   }
 
   public int currentRun () {
